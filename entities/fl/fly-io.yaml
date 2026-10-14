@@ -1,0 +1,64 @@
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m4xgw248h1fzcq08edpdk4ma
+  slug: fly-io
+  slug_aliases: []
+  name: Fly.io
+  domains:
+    - value: fly.io
+      role: primary
+      valid_from: 2026-10-14T15:37:26.000Z
+  category: hosting-infra
+profile:
+  summary: Fly.io is a public cloud that runs code on hardware-isolated Linux virtual machines, close to users, in 18+ regions.
+  description: Fly.io is a public cloud that runs code on hardware-isolated Linux virtual machines, close to users, in 18+ regions. It offers Sprites for agents, Fly Machines for apps, and Managed Postgres.
+  links:
+    site: https://fly.io
+sources:
+  - source_id: src_7d60e01d7da493eefa186d4b861692c81e8091983a50b2cdb922621954c4f666
+    url: https://fly.io
+  - source_id: src_2a564a06e973e6bb7c93d797b7dc66f91352b30106cab0282b36be6d47ec3dc6
+    url: https://fly.io/startups
+programs:
+  - program_id: prg_01m4xgw24napqd8d4ftzygh6hm
+    program_slug: fly-io-for-startups
+    program_slug_aliases: []
+    title: Fly.io for Startups
+    summary: Seed and Series A startups can apply for up to $15,000 in Fly.io credits and a shared Slack channel with the Fly.io team.
+    source_ids:
+      - src_2a564a06e973e6bb7c93d797b7dc66f91352b30106cab0282b36be6d47ec3dc6
+offers:
+  - offer_id: off_01m4xgw24nrv80h80b7x1mst43
+    program_id: prg_01m4xgw24napqd8d4ftzygh6hm
+    offer_slug: fly-io-startup-credits
+    offer_slug_aliases: []
+    title: $15,000 in Credits for Startups
+    summary: Seed and Series A startups can apply for up to $15,000 in Fly.io credits and a shared Slack channel with the Fly.io team.
+    lifecycle:
+      status: active
+      effective_from: 2026-10-14T15:37:26.000Z
+    economics:
+      consideration:
+        kind: none
+      benefits:
+        - benefit_id: ben_01
+          description: Up to $15,000 in credits added to a Fly.io organization and applied to usage across Machines, Sprites, Managed Postgres, volumes, and bandwidth; credits expire one year after they are added.
+          kind: other
+        - benefit_id: ben_02
+          description: A shared Slack channel with the Fly.io team, so questions reach the people who build the platform.
+          kind: other
+    eligibility:
+      rule:
+        kind: manual
+        criterion_id: cri_01
+        reason: vendor-discretion
+        statement: Startups at the Seed or Series A stage that are backed by a venture firm or an accelerator, and have not received Fly.io startup credits before. Fly.io may ask to verify funding with a quick email intro to the investor or accelerator.
+    roles:
+      terms_authority_entity_id: ent_01m4xgw248h1fzcq08edpdk4ma
+      access_operator_entity_id: ent_01m4xgw248h1fzcq08edpdk4ma
+    access:
+      availability: public
+      method: form
+      url: https://fly.io/startups
+    source_ids:
+      - src_2a564a06e973e6bb7c93d797b7dc66f91352b30106cab0282b36be6d47ec3dc6
