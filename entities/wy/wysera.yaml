@@ -55,13 +55,13 @@ offers:
           service: Done-with-you Launch Sprint
       consideration:
         kind: variable
-        description: Founding-member pricing is locked for 12 months once you convert.
+        description: Founding-member pricing is locked for 12 months once the startup converts.
     eligibility:
       rule:
         criterion_id: cri_01
         kind: manual
         reason: vendor-discretion
-        statement: Wysera manually reviews early-stage B2B startups with a real product; agencies reselling the platform and pre-product ideas are not eligible, and membership is limited to one per company.
+        statement: Wysera manually reviews early-stage, B2B-qualified startups with a real product and a genuine need to run marketing, sales, and ops; agencies reselling the platform and pre-product ideas are not eligible, and membership is limited to one per company.
     roles:
       terms_authority_entity_id: ent_5hhcjbzrafvn4m9akppramvadd
       access_operator_entity_id: ent_5hhcjbzrafvn4m9akppramvadd
@@ -69,7 +69,7 @@ offers:
       availability: public
       method: contact
       url: https://wysera.ai/startups
-      instructions: Follow the application instructions on the startup-program page to submit the startup name, website, and growth objective.
+      instructions: Email Wysera using the address on its startup-program page with your startup name, website, and what you want to grow.
     terms_url: https://wysera.ai/startups
     source_ids:
       - src_3ff2850af068653cf95f20a138237b000afa4dd2ac39123d7f83aa21d8b29780
