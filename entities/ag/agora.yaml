@@ -47,8 +47,7 @@ offers:
               minor_units: 5000000
             kind: up-to
       consideration:
-        kind: unknown
-        description: The program page does not state separate fees or other consideration for applying.
+        kind: none
     eligibility:
       rule:
         kind: all
@@ -69,8 +68,8 @@ offers:
       terms_authority_entity_id: ent_01kzy6p6zs4ytd7b0syw4dt0f6
       access_operator_entity_id: ent_01kzy6p6zs4ytd7b0syw4dt0f6
     access:
-      availability: public
-      method: form
-      url: https://explore.agora.io/vc-ai-jumpstart-program
+      availability: referral
+      method: other
+      instructions: A venture capital firm applies through the form on the program page for its portfolio companies.
     source_ids:
       - src_cd68c6e66e17e06fe24fd7d51291d063a09330467e48ba04beaef478652d72b6
