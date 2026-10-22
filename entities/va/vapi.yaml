@@ -15,6 +15,8 @@ profile:
   links:
     site: https://vapi.ai
 sources:
+  - source_id: src_f77de34c8f75a65b6d6210044be34ce8261f4563c48c814eef0206a7b290f911
+    url: https://vapi.ai
   - source_id: src_6ec5ed2462a71f50063a2d2a2ac0299d3655ab7ae843c7bef5d854381b0f5057
     url: https://vapi.ai/startups
 programs: []
