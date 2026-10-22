@@ -1,0 +1,64 @@
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m5ht5eatcv150w1rtz8crpst
+  slug: vapi
+  slug_aliases: []
+  name: Vapi
+  domains:
+    - value: vapi.ai
+      role: primary
+      valid_from: 2026-10-22T13:10:00.000Z
+  category: ai-ml
+profile:
+  description: Vapi is a platform for building, testing and deploying voice AI agents over phone and web.
+  links:
+    site: https://vapi.ai
+sources:
+  - source_id: src_6ec5ed2462a71f50063a2d2a2ac0299d3655ab7ae843c7bef5d854381b0f5057
+    url: https://vapi.ai/startups
+programs: []
+offers:
+  - offer_id: off_01m5ht5eatzf18c2ggshxn4ahw
+    offer_slug: vapi-for-startups
+    offer_slug_aliases:
+      - 90-000-free-minutes
+    title: Vapi for Startups
+    summary: Eligible voice AI startups receive 7,500 free minutes per month for 12 months, a private Slack channel with Vapi engineers, and early feature access.
+    lifecycle:
+      status: active
+      effective_from: 2026-10-22T13:10:00.000Z
+    economics:
+      consideration:
+        kind: unknown
+        description: The public program page does not establish separate consideration.
+      benefits:
+        - benefit_id: ben_primary
+          description: 90,000 free minutes total, granted as 7,500 free minutes per month for 12 months
+          kind: other
+        - benefit_id: ben_support
+          description: Private Slack channel with forward-deployed Vapi engineers
+          kind: other
+        - benefit_id: ben_features
+          description: Early access to new features plus a direct feedback line
+          kind: other
+    eligibility:
+      rule:
+        kind: any
+        rules:
+          - criterion_id: cri_01
+            kind: manual
+            reason: external-verification
+            statement: Startups building voice AI products or features, from pre-seed to Series A, that have raised at least $250k in funding.
+          - criterion_id: cri_02
+            kind: manual
+            reason: external-verification
+            statement: Projects focused on innovative voice applications that are launching to customers within 6 months.
+    roles:
+      terms_authority_entity_id: ent_01m5ht5eatcv150w1rtz8crpst
+      access_operator_entity_id: ent_01m5ht5eatcv150w1rtz8crpst
+    access:
+      availability: public
+      method: form
+      url: https://vapi.ai/startups
+    source_ids:
+      - src_6ec5ed2462a71f50063a2d2a2ac0299d3655ab7ae843c7bef5d854381b0f5057
