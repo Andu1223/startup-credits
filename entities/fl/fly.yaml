@@ -35,12 +35,7 @@ offers:
       benefits:
         - benefit_id: ben_credits
           description: $15,000 in Fly.io credits applied to the organization's usage.
-          kind: credit
-          value:
-            amount:
-              currency: USD
-              minor_units: 1500000
-            kind: exact
+          kind: other
         - benefit_id: ben_slack
           description: A shared Slack channel with the Fly.io team.
           kind: other
