@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-10-22T13:10:00.000Z
   category: ai-ml
 profile:
+  summary: Vapi is a voice AI platform for building and deploying agents that handle phone calls and web voice interactions.
   description: Vapi is a platform for building, testing and deploying voice AI agents over phone and web.
   links:
     site: https://vapi.ai
