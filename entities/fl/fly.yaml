@@ -1,0 +1,67 @@
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m5hvrb89pmgbx498z2vy3f2v
+  slug: fly
+  slug_aliases:
+    - fly-io
+  name: Fly.io
+  domains:
+    - value: fly.io
+      role: primary
+      valid_from: 2026-10-22T13:12:00.000Z
+  category: hosting-infra
+profile:
+  summary: Fly.io runs hardware-isolated microVMs close to users, with managed Postgres, volumes and private networking.
+  description: Fly.io offers a platform for running Docker images as microVMs, with autoscaling, managed Postgres, volumes and private networking between apps.
+  links:
+    site: https://fly.io
+sources:
+  - source_id: src_44fcfbe10cfc1338b6f1e9aacf58ec7870d0ff388019d71998ea01fa0d1e1f53
+    url: https://fly.io/startups
+programs: []
+offers:
+  - offer_id: off_01m5hvrb89qxryqsp4encb09q5
+    offer_slug: fly-io-for-startups
+    offer_slug_aliases:
+      - 15-000-in-credits-for-startups
+    title: Fly.io for Startups
+    summary: Startups that apply get $15,000 in Fly.io credits applied to their organization's usage, plus a shared Slack channel with the Fly.io team.
+    lifecycle:
+      status: active
+      effective_from: 2026-10-22T13:12:00.000Z
+    economics:
+      consideration:
+        kind: none
+      benefits:
+        - benefit_id: ben_credits
+          description: $15,000 in Fly.io credits applied to the organization's usage.
+          kind: credit
+          value:
+            amount:
+              currency: USD
+              minor_units: 1500000
+            kind: exact
+        - benefit_id: ben_slack
+          description: A shared Slack channel with the Fly.io team.
+          kind: other
+    eligibility:
+      rule:
+        kind: any
+        rules:
+          - criterion_id: cri_01
+            kind: manual
+            reason: external-verification
+            statement: Applicants describe themselves, their company and company website, and their funding stage, choosing between Seed, Series A or Other.
+          - criterion_id: cri_02
+            kind: manual
+            reason: external-verification
+            statement: A human reviews each application and replies by email within a week; approval is not automatic.
+    roles:
+      terms_authority_entity_id: ent_01m5hvrb89pmgbx498z2vy3f2v
+      access_operator_entity_id: ent_01m5hvrb89pmgbx498z2vy3f2v
+    access:
+      availability: public
+      method: form
+      url: https://fly.io/startups
+    source_ids:
+      - src_44fcfbe10cfc1338b6f1e9aacf58ec7870d0ff388019d71998ea01fa0d1e1f53
